@@ -7,6 +7,6 @@ type Thing struct {
 	Name string
 }
 
-func (t *Thing) String() string {
+func (t Thing) String() string {
 	return fmt.Sprintf("Hello, I'm %s", t.Name)
 }
